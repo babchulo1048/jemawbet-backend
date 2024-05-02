@@ -16,7 +16,7 @@ db.once("open", function () {
 
 app.use(
   cors({
-    origin: ["http://localhost:3000"],
+    origin: ["http://localhost:3000", "https://jemawbet.netlify.app/"],
   })
 );
 app.use(express.json());
